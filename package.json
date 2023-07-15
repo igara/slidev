@@ -1,21 +1,24 @@
 {
   "name": "slidev",
   "private": true,
+  "homepage": "https://igara.github.io/slidev",
   "scripts": {
     "build": "slidev build",
     "docs": "npm-run-all -p docs:*",
-    "docs:pages": "slidev build pages.md -o docs",
-    "docs:slides": "slidev build pages/slides/README.md -o ../../docs/slides",
-    "docs:20230716_ai_voice": "slidev build pages/20230716_ai_voice/README.md -o ../../docs/20230716_ai_voice",
+    "docs:pages": "slidev build pages.md -o dist",
+    "docs:slides": "slidev build pages/slides/README.md -o ../../dist/slides",
+    "docs:20230716_ai_voice": "slidev build pages/20230716_ai_voice/README.md -o ../../dist/20230716_ai_voice",
     "open:pages": "slidev pages.md --open",
     "open:slides": "slidev pages/slides/README.md --open",
     "open:20230716_ai_voice": "slidev pages/20230716_ai_voice/README.md --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "deploy": "npm run docs && gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.42.5",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "gh-pages": "^5.0.0",
     "npm-run-all": "^4.1.5"
   }
 }
