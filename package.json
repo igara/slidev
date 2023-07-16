@@ -8,9 +8,11 @@
     "docs:pages": "slidev build pages.md  --base=/slidev/ -o dist",
     "docs:slides": "slidev build pages/slides/README.md --base=/slidev/slides/ -o ../../dist/slides",
     "docs:20230716_ai_voice": "slidev build pages/20230716_ai_voice/README.md --base=/slidev/20230716_ai_voice/ -o ../../dist/20230716_ai_voice",
+    "docs:20230717_script_doga": "slidev build pages/20230717_script_doga/README.md --base=/slidev/20230717_script_doga/ -o ../../dist/20230717_script_doga",
     "open:pages": "slidev pages.md --open",
     "open:slides": "slidev pages/slides/README.md --open",
     "open:20230716_ai_voice": "slidev pages/20230716_ai_voice/README.md --open",
+    "open:20230717_script_doga": "slidev pages/20230717_script_doga/README.md --open",
     "export": "slidev export",
     "deploy": "npm run docs && gh-pages -d dist"
   },
