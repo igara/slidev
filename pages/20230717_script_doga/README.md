@@ -82,7 +82,7 @@ https://igara.github.io/ffmpeg_test/speech_to_text
 </style>
 
 <div class="background">
-  <iframe class="reg" src="/reg.mp4"></iframe>
+  <iframe class="reg" src="/slidev/20230717_script_doga/reg.mp4"></iframe>
 </div>
 
 ---
