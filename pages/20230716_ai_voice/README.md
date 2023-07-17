@@ -10,6 +10,7 @@ title: 音声合成イガロイド
 <style>
   #slideshow {
     background: black;
+    color: white;
   }
 
   .my-auto {
