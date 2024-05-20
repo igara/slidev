@@ -36,7 +36,7 @@ title: Storybook Driven
 </style>
 
 <div class="background">
-  <img class="titleLion" src="lion.png">
+  <img class="titleLion" src="/lion.png">
 </div>
 
 # Storybook Driven
@@ -65,7 +65,7 @@ example: https://github.com/igara/storybook8-test/blob/main/src/features/pages/a
 </style>
 
 <video controls>
-  <source src="mock.webm" type="video/webm" />
+  <source src="/mock.webm" type="video/webm" />
 </video>
 
 ---
@@ -79,7 +79,7 @@ example: https://github.com/igara/storybook8-test/blob/main/src/features/pages/a
 </style>
 
 <div class="background">
-  <img class="lion2" src="lion.png">
+  <img class="lion2" src="/lion.png">
 </div>
 
 先ほどの箇条書きを言い直すと
@@ -113,7 +113,7 @@ Storybookで細かいテストケースを作成していくことで結合テ�
   }
 </style>
 
-<img class="accessibility" src="accessibility.png">
+<img class="accessibility" src="/accessibility.png">
 
 ---
 
@@ -132,7 +132,7 @@ example: https://github.com/igara/storybook8-test/blob/main/src/components/Snack
 </style>
 
 <video controls class="args_chaeck">
-  <source src="args_chaeck.webm" type="video/webm" />
+  <source src="/args_chaeck.webm" type="video/webm" />
 </video>
 
 ---
@@ -150,7 +150,7 @@ example: https://github.com/igara/storybook8-test/blob/main/src/features/users/A
 </style>
 
 <video controls class="auto_input">
-  <source src="auto_input.webm" type="video/webm" />
+  <source src="/auto_input.webm" type="video/webm" />
 </video>
 
 ---
@@ -174,7 +174,7 @@ ArtifactsにDOMの変更差分のレポートを出力している
   }
 </style>
 
-<img class="artifacts" src="artifacts.png">
+<img class="artifacts" src="/artifacts.png">
 
 ---
 
@@ -184,7 +184,7 @@ ArtifactsにDOMの変更差分のレポートを出力している
   }
 </style>
 
-<img class="github_actions" src="github_actions.png">
+<img class="github_actions" src="/github_actions.png">
 
 ---
 
@@ -195,7 +195,7 @@ ArtifactsにDOMの変更差分のレポートを出力している
 </style>
 
 <video controls class="vrt">
-  <source src="vrt.webm" type="video/webm" />
+  <source src="/vrt.webm" type="video/webm" />
 </video>
 
 ---
