@@ -16,7 +16,7 @@
     "open:20230717_script_doga": "slidev pages/20230717_script_doga/README.md --open",
     "open:20240522_storybook_driven": "slidev pages/20240522_storybook_driven/README.md --open",
     "export": "slidev export",
-    "deploy": "npm run docs && gh-pages -d dist"
+    "deploy": "npm run docs && cp -r _redirects dist/_redirects && gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.42.5",
