@@ -74,7 +74,7 @@ title: ちょっと知りたい！サイト高速化について
 
 - [英傑大戦ツール](https://igara.github.io/eiketsu-taisen-tool/)の仮想スクロール対応
   - [@tanstack/react-virtual](https://tanstack.com/virtual/latest)
-    - 武将のデータが計略の説明で縦幅が固定じゃないので調整大変だった
+    - 武将の計略の説明で縦幅が固定じゃないので調整大変だった
       - Copilotニキに助けられた
 
 <img class="copilot_image" src="/copilot.png">
