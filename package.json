@@ -20,7 +20,7 @@
     "open:20241127_image_analyze": "slidev pages/20241127_image_analyze/README.md --open",
     "open:20250704_chot_zadan": "slidev pages/20250704_chot_zadan/README.md --open",
     "export": "slidev export",
-    "deploy": "npm run docs && cp -r index.html dist/index.html && gh-pages -d dist"
+    "deploy": "npm run docs && cp -r 404.html dist/404.html && gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.42.5",
